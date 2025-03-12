@@ -1,0 +1,60 @@
+/* Define a global color variable */
+:root {
+  --global-color-1: #800000; /* Default color */
+}
+
+/* The styles for the elements */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+/* The styles for the header */
+header img {
+  float: left;
+}
+
+/* Style for h2 in the header */
+header h2 {
+  font-size: 170%;
+  color: var(--global-color-1);
+  text-indent: 30px;
+}
+
+/* Style for h3 in the header */
+header h3 {
+  font-size: 130%;
+  font-style: italic;
+  text-indent: 30px;
+}
+
+/* The styles for the main content */
+main {
+  clear: left;
+}
+main h1 {
+  font-size: 150%;
+}
+main h2 {
+  color: var(--global-color-1);
+  font-size: 130%;
+}
+main h3 {
+  font-size: 105%;
+}
+
+/* Style for links - italicize on hover or focus */
+a:hover,
+a:focus {
+  font-style: italic;
+}
+
+/* Style for centered footer text */
+footer p {
+  text-align: center;
+}
+
+/* Style for text shadow on "75th" */
+.shadow {
+  text-shadow: 3px 3px 5px var(--global-color-1);
+}
